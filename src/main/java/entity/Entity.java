@@ -6,13 +6,13 @@ import annotations.Secured;
 public class Entity {
 
     @Secured(1)
-    public void firstMethod () {
+    public void firstMethod() {
 
     }
 
     @SecondAnnotation
     @Secured(value = 2, property = "weak")
-    private void secondMethod () {
+    private void secondMethod() {
 
     }
 

@@ -11,6 +11,6 @@ public class Main {
                 .peek(System.out::println).
                 forEach(e -> Arrays.stream(e.getAnnotations())
                         .forEach(System.out::println));
-    }
 
+    }
 }
